@@ -6,7 +6,11 @@
 	<true/>
 	<key>AboutToPasteTabsWithCancel_selection</key>
 	<integer>2</integer>
+	<key>AggressiveFocusFollowsMouse</key>
+	<true/>
 	<key>AlternateMouseScroll</key>
+	<true/>
+	<key>AlwaysAcceptFirstMouse</key>
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
@@ -18,6 +22,8 @@
 	<integer>1</integer>
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
+	<key>CGFontRenderingFontSmoothingDisabled</key>
+	<false/>
 	<key>CloseBookmarksWindowAfterOpening</key>
 	<true/>
 	<key>CopyWithStylesByDefault</key>
@@ -48,6 +54,102 @@
 	<false/>
 	<key>ExcludeBackgroundColorsFromCopiedStyle</key>
 	<true/>
+	<key>FocusFollowsMouse</key>
+	<true/>
+	<key>GlobalKeyMap</key>
+	<dict>
+		<key>0x19-0x60000</key>
+		<dict>
+			<key>Action</key>
+			<integer>39</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf700-0x300000</key>
+		<dict>
+			<key>Action</key>
+			<integer>7</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf701-0x300000</key>
+		<dict>
+			<key>Action</key>
+			<integer>6</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf702-0x300000</key>
+		<dict>
+			<key>Action</key>
+			<integer>2</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf702-0x320000</key>
+		<dict>
+			<key>Action</key>
+			<integer>33</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf703-0x300000</key>
+		<dict>
+			<key>Action</key>
+			<integer>0</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf703-0x320000</key>
+		<dict>
+			<key>Action</key>
+			<integer>34</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf729-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>5</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72b-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>4</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72c-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>9</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72c-0x20000</key>
+		<dict>
+			<key>Action</key>
+			<integer>9</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72d-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>8</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+		<key>0xf72d-0x20000</key>
+		<dict>
+			<key>Action</key>
+			<integer>8</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
+	</dict>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideMenuBarInFullscreen</key>
@@ -59,15 +161,17 @@
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>LeftCommand</key>
-	<integer>7</integer>
+	<integer>1</integer>
+	<key>LeftOption</key>
+	<integer>1</integer>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop/iterm_preference</string>
+	<string>~/Desktop</string>
 	<key>NSNavLastUserSetHideExtensionButtonState</key>
-	<true/>
+	<false/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -126,7 +230,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>541 74 1237 983 0 0 1920 1057 </string>
+	<string>419 251 1513 806 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>5 75 1591 802 0 0 1600 877 </string>
 	<key>New Bookmarks</key>
@@ -480,7 +584,9 @@
 			<key>Has Hotkey</key>
 			<false/>
 			<key>Horizontal Spacing</key>
-			<real>1.0408214890813254</real>
+			<real>1.04</real>
+			<key>Icon</key>
+			<integer>0</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>
@@ -534,6 +640,20 @@ Find.Find...</string>
 					<integer>0</integer>
 					<key>Text</key>
 					<string></string>
+				</dict>
+				<key>0xf702-0x220000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x15</string>
+				</dict>
+				<key>0xf703-0x220000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x0b</string>
 				</dict>
 				<key>0xf70f-0x0</key>
 				<dict>
@@ -680,7 +800,7 @@ Clear Buffer</string>
 			<key>Use Underline Color</key>
 			<false/>
 			<key>Vertical Spacing</key>
-			<real>1.2394460655120483</real>
+			<real>1.24</real>
 			<key>Visual Bell</key>
 			<false/>
 			<key>Window Type</key>
@@ -694,12 +814,23 @@ Clear Buffer</string>
 		<string>3.2.9</string>
 		<string>3.3.12</string>
 	</array>
+	<key>NoSyncDynamicProfilesWarning_SilenceUntil</key>
+	<real>640889766.33151495</real>
+	<key>NoSyncDynamicProfilesWarning_selection</key>
+	<integer>0</integer>
+	<key>NoSyncFrame_SessionsPreferences</key>
+	<dict>
+		<key>screenFrame</key>
+		<string>{{0, 0}, {1920, 1080}}</string>
+		<key>topLeft</key>
+		<string>{657, 948}</string>
+	</dict>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
 		<string>{{0, 0}, {1920, 1080}}</string>
 		<key>topLeft</key>
-		<string>{638, 864}</string>
+		<string>{692, 773}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
@@ -708,7 +839,7 @@ Clear Buffer</string>
 	<key>NoSyncLastTipTime</key>
 	<real>639184896.23003197</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>1</integer>
+	<integer>4</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1021,7 +1152,15 @@ Clear Buffer</string>
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>id</string>
+				<string>currentTab.currentSession.presentationName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.iterm2.localhostName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1037,55 +1176,7 @@ Clear Buffer</string>
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.name</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>titleOverrideFormat</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentTab.currentSession.presentationName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
 				<string>frame</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<false/>
-				<key>name</key>
-				<string>currentTab</string>
-				<key>nonterminalContext</key>
-				<integer>2</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>titleOverride</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentTab.currentSession.username</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1107,33 +1198,57 @@ Clear Buffer</string>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>currentTab</string>
+				<key>nonterminalContext</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.window</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>id</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.name</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>titleOverride</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
 				<string>number</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<false/>
-				<key>name</key>
-				<string>iterm2</string>
-				<key>nonterminalContext</key>
-				<integer>4</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentTab.currentSession.tty</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentTab.iterm2.localhostName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1157,6 +1272,14 @@ Clear Buffer</string>
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.currentSession.hostname</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentTab.titleOverrideFormat</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1165,7 +1288,31 @@ Clear Buffer</string>
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.hostname</string>
+				<string>currentTab.currentSession.tty</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.username</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<false/>
+				<key>name</key>
+				<string>iterm2</string>
+				<key>nonterminalContext</key>
+				<integer>4</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>titleOverrideFormat</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1280,6 +1427,14 @@ Clear Buffer</string>
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>window</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>id</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1364,6 +1519,14 @@ Clear Buffer</string>
 				<key>nonterminalContext</key>
 				<integer>1</integer>
 			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 		<key>4</key>
 		<array>
@@ -1395,6 +1558,11 @@ Clear Buffer</string>
 	</dict>
 	<key>NoSyncSaveDocumentAsPathSet_saveDocumentAs:</key>
 	<true/>
+	<key>NoSyncSavePanelSavedSettings_SaveProfile</key>
+	<dict>
+		<key>Initial Directory</key>
+		<string>/Users/maher.naija/Desktop</string>
+	</dict>
 	<key>NoSyncSuppressMissingProfileInArrangementWarning</key>
 	<true/>
 	<key>NoSyncSuppressRestartSessionConfirmationAlert</key>
@@ -1527,6 +1695,8 @@ Clear Buffer</string>
 	<false/>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
+	<key>PassOnControlClick</key>
+	<false/>
 	<key>PasteTabToStringTabStopSize</key>
 	<integer>1</integer>
 	<key>PointerActions</key>
@@ -1540,26 +1710,8 @@ Clear Buffer</string>
 		<dict>
 			<key>Action</key>
 			<string>kPasteFromClipboardPointerAction</string>
-		</dict>
-		<key>Gesture,ThreeFingerSwipeDown,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kPrevWindowPointerAction</string>
-		</dict>
-		<key>Gesture,ThreeFingerSwipeLeft,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kPrevTabPointerAction</string>
-		</dict>
-		<key>Gesture,ThreeFingerSwipeRight,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kNextTabPointerAction</string>
-		</dict>
-		<key>Gesture,ThreeFingerSwipeUp,,</key>
-		<dict>
-			<key>Action</key>
-			<string>kNextWindowPointerAction</string>
+			<key>Argument</key>
+			<string>{"ConvertUnicodePunctuation":true,"WaitForPrompts":false,"Substitution":"","EscapeForShell":false,"Base64":false,"TabStopSize":4,"Delay":0.01,"RemoveNewlines":false,"Regex":"","ConvertNewlines":true,"TabTransform":0,"BracketAllowed":true,"UseRegexSubstitution":false,"ChunkSize":1024,"RemoveControls":true}</string>
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
@@ -1572,6 +1724,10 @@ Clear Buffer</string>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
 	<true/>
+	<key>RightCommand</key>
+	<integer>1</integer>
+	<key>RightOption</key>
+	<integer>1</integer>
 	<key>SUAutomaticallyUpdate</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
@@ -1594,6 +1750,8 @@ Clear Buffer</string>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.3069060496794872</real>
+	<key>StealKeyFocus</key>
+	<true/>
 	<key>SuppressRestartAnnouncement</key>
 	<true/>
 	<key>TimeBetweenBlinks</key>
@@ -1622,11 +1780,13 @@ Clear Buffer</string>
 				<key>Has Toolbelt</key>
 				<false/>
 				<key>Height</key>
-				<real>983</real>
+				<real>954</real>
 				<key>Hide After Opening</key>
 				<false/>
 				<key>Hiding Toolbelt Should Resize Window</key>
 				<false/>
+				<key>Initial Profile</key>
+				<dict/>
 				<key>Is Hotkey Window</key>
 				<false/>
 				<key>Saved Window Type</key>
@@ -1993,11 +2153,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>78D0C64C-CF33-4636-A9AB-FC28881F0963</string>
+											<string>4159B972-739E-446F-9138-BC4CADB09BE7</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -2178,8 +2338,19 @@ Clear Buffer</string>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -2197,22 +2368,21 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
@@ -2255,6 +2425,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -2262,15 +2439,13 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>DC32D193-C5A8-4862-88BC-B5ED7BD7FB1A</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict>
@@ -2279,15 +2454,17 @@ Clear Buffer</string>
 										</dict>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>312</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -2645,11 +2822,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>09C542BA-471F-4298-B7E8-251D6F4F7521</string>
+											<string>A80B2F06-190F-42B2-BEDE-98C8FB7E0D74</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -2830,8 +3007,19 @@ Clear Buffer</string>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -2849,18 +3037,16 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
@@ -2887,6 +3073,7 @@ Clear Buffer</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
 										</array>
 										<key>Environment</key>
 										<dict>
@@ -2897,6 +3084,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -2904,33 +3098,33 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>B01148A3-0727-4EEB-83C1-E39938451076</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>311</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>313</real>
+										<real>303</real>
 									</dict>
 								</dict>
 								<dict>
@@ -3284,11 +3478,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>50F191E0-7D65-4E6E-B8C0-0F82D29CC453</string>
+											<string>B336BA27-5D9F-42E2-B2F4-CA9734D8EE3C</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -3469,8 +3663,19 @@ Clear Buffer</string>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -3488,22 +3693,79 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija/Desktop</string>
+											<string>/Users/maher.naija/Desktop</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija/Desktop/iterm_preference</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija/zsh_files</string>
+											<string>/Users/maher.naija/zsh_files</string>
+											<string>/Users/maher.naija/zsh_files</string>
+											<string>/Users/maher.naija/zsh_files</string>
+											<string>/Users/maher.naija/zsh_files</string>
+											<string>/Users/maher.naija/zsh_files</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 										</array>
@@ -3516,6 +3778,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -3523,33 +3792,33 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>37E57346-DEA5-4D4B-AD3E-EC6AF4199415</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>312</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>625</real>
+										<real>606</real>
 									</dict>
 								</dict>
 							</array>
@@ -3558,9 +3827,9 @@ Clear Buffer</string>
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>937</real>
+								<real>908</real>
 								<key>width</key>
-								<real>1237</real>
+								<real>1501</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -3569,6 +3838,8 @@ Clear Buffer</string>
 							<key>isVertical</key>
 							<false/>
 						</dict>
+						<key>Title Override</key>
+						<string>vpc it</string>
 					</dict>
 					<dict>
 						<key>Root</key>
@@ -3926,11 +4197,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>0401E8F5-3091-40D8-945C-7FBA39DFC49B</string>
+											<string>6ED7DFA6-3147-459B-85C3-623393738A1A</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -4099,20 +4370,31 @@ Clear Buffer</string>
 												<key>Alpha Component</key>
 												<real>1</real>
 												<key>Blue Component</key>
-												<real>0.0</real>
+												<real>0.27843137254901962</real>
 												<key>Color Space</key>
 												<string>sRGB</string>
 												<key>Green Component</key>
-												<real>0.0</real>
+												<real>0.67450980392156867</real>
 												<key>Red Component</key>
-												<real>1</real>
+												<real>0.96470588235294119</real>
 											</dict>
 											<key>Tags</key>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -4130,22 +4412,21 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 										</array>
@@ -4158,6 +4439,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -4165,15 +4453,13 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>5C85B818-FDB3-4602-A8A8-1D1099B9F808</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict>
@@ -4182,15 +4468,17 @@ Clear Buffer</string>
 										</dict>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>311</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -4548,11 +4836,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>7316CD80-3FFA-44CF-9E17-E347437B03F3</string>
+											<string>AC023231-9B61-4643-923A-3CFCA689C4DA</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -4721,20 +5009,31 @@ Clear Buffer</string>
 												<key>Alpha Component</key>
 												<real>1</real>
 												<key>Blue Component</key>
-												<real>0.0</real>
+												<real>0.27843137254901962</real>
 												<key>Color Space</key>
 												<string>sRGB</string>
 												<key>Green Component</key>
-												<real>0.0</real>
+												<real>0.67450980392156867</real>
 												<key>Red Component</key>
-												<real>1</real>
+												<real>0.96470588235294119</real>
 											</dict>
 											<key>Tags</key>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -4752,22 +5051,21 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 										</array>
@@ -4780,6 +5078,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -4787,33 +5092,33 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>51492C1E-AADE-4ACA-A6B5-2C94ADB79A73</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>312</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>312</real>
+										<real>303</real>
 									</dict>
 								</dict>
 								<dict>
@@ -5167,11 +5472,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>B59ECCC8-FE85-4C52-8CC1-980FFE84EBF3</string>
+											<string>73803B6A-01C3-436E-9D02-8A2FD7B5054E</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -5340,20 +5645,31 @@ Clear Buffer</string>
 												<key>Alpha Component</key>
 												<real>1</real>
 												<key>Blue Component</key>
-												<real>0.0</real>
+												<real>0.27843137254901962</real>
 												<key>Color Space</key>
 												<string>sRGB</string>
 												<key>Green Component</key>
-												<real>0.0</real>
+												<real>0.67450980392156867</real>
 												<key>Red Component</key>
-												<real>1</real>
+												<real>0.96470588235294119</real>
 											</dict>
 											<key>Tags</key>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -5371,22 +5687,21 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 										</array>
@@ -5399,6 +5714,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -5406,33 +5728,33 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>CE3C6178-386D-4FDA-BDC3-D52CBB223275</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>312</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>625</real>
+										<real>606</real>
 									</dict>
 								</dict>
 							</array>
@@ -5441,9 +5763,9 @@ Clear Buffer</string>
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>937</real>
+								<real>908</real>
 								<key>width</key>
-								<real>1237</real>
+								<real>1501</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -5452,6 +5774,8 @@ Clear Buffer</string>
 							<key>isVertical</key>
 							<false/>
 						</dict>
+						<key>Title Override</key>
+						<string>aws</string>
 					</dict>
 					<dict>
 						<key>Root</key>
@@ -5809,11 +6133,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>85A8F476-59FA-4C81-8EDF-3ADBDDA2E709</string>
+											<string>DD18B765-4751-47AB-AC60-24F7BB8696EE</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -5982,20 +6306,31 @@ Clear Buffer</string>
 												<key>Alpha Component</key>
 												<real>1</real>
 												<key>Blue Component</key>
-												<real>0.0</real>
+												<real>0.28627450980392155</real>
 												<key>Color Space</key>
 												<string>sRGB</string>
 												<key>Green Component</key>
-												<real>0.0</real>
+												<real>0.84313725490196079</real>
 												<key>Red Component</key>
-												<real>1</real>
+												<real>0.70980392156862748</real>
 											</dict>
 											<key>Tags</key>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -6013,22 +6348,32 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 										</array>
@@ -6041,6 +6386,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -6048,15 +6400,13 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>B34A8247-C70E-470F-A297-1566D182E1C0</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict>
@@ -6065,15 +6415,17 @@ Clear Buffer</string>
 										</dict>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>311</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
@@ -6431,11 +6783,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>6B5F8EA5-70AA-41CE-BA6F-505FE7ED8E71</string>
+											<string>37C55727-A8C8-471D-B4B8-08A7FCA385F0</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -6604,20 +6956,31 @@ Clear Buffer</string>
 												<key>Alpha Component</key>
 												<real>1</real>
 												<key>Blue Component</key>
-												<real>0.0</real>
+												<real>0.28627450980392155</real>
 												<key>Color Space</key>
 												<string>sRGB</string>
 												<key>Green Component</key>
-												<real>0.0</real>
+												<real>0.84313725490196079</real>
 												<key>Red Component</key>
-												<real>1</real>
+												<real>0.70980392156862748</real>
 											</dict>
 											<key>Tags</key>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -6635,22 +6998,29 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
+											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
@@ -6675,6 +7045,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -6682,33 +7059,33 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>3F48F2CE-E9BB-457A-B2D4-75EC41C3CDEA</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>312</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>312</real>
+										<real>303</real>
 									</dict>
 								</dict>
 								<dict>
@@ -7062,11 +7439,11 @@ Clear Buffer</string>
 												<real>1</real>
 											</dict>
 											<key>Guid</key>
-											<string>42A6156D-E822-4103-A354-1A2F56C00F06</string>
+											<string>6F343BD7-877A-4653-855B-602D386F2521</string>
 											<key>Has Hotkey</key>
 											<false/>
 											<key>Horizontal Spacing</key>
-											<real>1.0408214890813254</real>
+											<real>1.04</real>
 											<key>Idle Code</key>
 											<integer>0</integer>
 											<key>Jobs to Ignore</key>
@@ -7235,20 +7612,31 @@ Clear Buffer</string>
 												<key>Alpha Component</key>
 												<real>1</real>
 												<key>Blue Component</key>
-												<real>0.0</real>
+												<real>0.28627450980392155</real>
 												<key>Color Space</key>
 												<string>sRGB</string>
 												<key>Green Component</key>
-												<real>0.0</real>
+												<real>0.84313725490196079</real>
 												<key>Red Component</key>
-												<real>1</real>
+												<real>0.70980392156862748</real>
 											</dict>
 											<key>Tags</key>
 											<array/>
 											<key>Terminal Type</key>
 											<string>xterm-256color</string>
+											<key>Title Components</key>
+											<integer>3</integer>
 											<key>Transparency</key>
 											<real>0.0</real>
+											<key>Triggers</key>
+											<array>
+												<dict>
+													<key>action</key>
+													<string>BounceTrigger</string>
+													<key>regex</key>
+													<string></string>
+												</dict>
+											</array>
 											<key>Unlimited Scrollback</key>
 											<true/>
 											<key>Use Bold Font</key>
@@ -7266,22 +7654,21 @@ Clear Buffer</string>
 											<key>Use Underline Color</key>
 											<false/>
 											<key>Vertical Spacing</key>
-											<real>1.2394460655120483</real>
+											<real>1.24</real>
 											<key>Visual Bell</key>
-											<true/>
+											<false/>
 											<key>Window Type</key>
 											<integer>0</integer>
 											<key>Working Directory</key>
 											<string>/Users/maher.naija</string>
 										</dict>
-										<key>Bookmark Name</key>
-										<string>maher2</string>
 										<key>Columns</key>
-										<integer>101</integer>
+										<integer>123</integer>
 										<key>Commands</key>
 										<array/>
 										<key>Directories</key>
 										<array>
+											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 											<string>/Users/maher.naija</string>
 										</array>
@@ -7294,6 +7681,13 @@ Clear Buffer</string>
 										<array/>
 										<key>Is UTF-8</key>
 										<true/>
+										<key>Name Controller State</key>
+										<dict>
+											<key>icon title stack</key>
+											<array/>
+											<key>window title stack</key>
+											<array/>
+										</dict>
 										<key>Program</key>
 										<dict>
 											<key>Type</key>
@@ -7301,33 +7695,33 @@ Clear Buffer</string>
 										</dict>
 										<key>Rows</key>
 										<integer>12</integer>
-										<key>Session Default Name</key>
-										<string>maher2</string>
 										<key>Session GUID</key>
 										<string>ED1E7CD8-8DC1-4CDC-B15C-D93927EF7A73</string>
-										<key>Session Name</key>
-										<string>~</string>
-										<key>Session Window Title</key>
-										<string>maher.naija@MacBook-Pro-7:~</string>
-										<key>Shell Integration Ever Used</key>
+										<key>Short Lived Single Use</key>
+										<false/>
+										<key>Should Expect Current Dir Updates</key>
+										<false/>
+										<key>Should Expect Prompt Marks</key>
 										<false/>
 										<key>Substitutions</key>
 										<dict/>
 										<key>Working Directory</key>
 										<string>/Users/maher.naija</string>
+										<key>Working Directory Poller Disabled</key>
+										<false/>
 									</dict>
 									<key>View Type</key>
 									<string>SessionView</string>
 									<key>frame</key>
 									<dict>
 										<key>height</key>
-										<real>312</real>
+										<real>302</real>
 										<key>width</key>
-										<real>1237</real>
+										<real>1501</real>
 										<key>x</key>
 										<real>0.0</real>
 										<key>y</key>
-										<real>625</real>
+										<real>606</real>
 									</dict>
 								</dict>
 							</array>
@@ -7336,9 +7730,9 @@ Clear Buffer</string>
 							<key>frame</key>
 							<dict>
 								<key>height</key>
-								<real>937</real>
+								<real>908</real>
 								<key>width</key>
-								<real>1237</real>
+								<real>1501</real>
 								<key>x</key>
 								<real>0.0</real>
 								<key>y</key>
@@ -7347,10 +7741,14 @@ Clear Buffer</string>
 							<key>isVertical</key>
 							<false/>
 						</dict>
+						<key>Title Override</key>
+						<string>perso</string>
 					</dict>
 				</array>
 				<key>TerminalGuid</key>
 				<string>pty-7D67C514-F809-4610-AE94-547BAEF1919E</string>
+				<key>Toolbelt</key>
+				<dict/>
 				<key>Toolbelt Proportions</key>
 				<dict>
 					<key>proportions</key>
@@ -7366,13 +7764,13 @@ Clear Buffer</string>
 				<key>Use Transparency</key>
 				<true/>
 				<key>Width</key>
-				<real>1237</real>
+				<real>1501</real>
 				<key>Window Type</key>
 				<integer>0</integer>
 				<key>X Origin</key>
-				<real>701</real>
+				<real>732</real>
 				<key>Y Origin</key>
-				<real>74</real>
+				<real>103</real>
 			</dict>
 		</array>
 	</dict>
