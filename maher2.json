@@ -53,7 +53,7 @@
   "Sync Title" : false,
   "Disable Window Resizing" : true,
   "Description" : "Default",
-  "Close Sessions On End" : true,
+  "Close Sessions On End" : 2,
   "Jobs to Ignore" : [
     "rlogin",
     "ssh",
@@ -99,45 +99,50 @@
   "Unlimited Scrollback" : true,
   "Custom Command" : "No",
   "Keyboard Map" : {
-    "0x7a-0x40000" : {
-      "Action" : 44,
-      "Text" : ""
-    },
-    "0xf728-0x40000" : {
-      "Action" : 25,
-      "Text" : "Clear Buffer\nClear Buffer"
-    },
     "0x9-0x40000" : {
       "Action" : 0,
-      "Text" : ""
-    },
-    "0xf703-0x220000" : {
-      "Action" : 11,
-      "Text" : "0x0b"
-    },
-    "0x77-0x40000" : {
-      "Action" : 10,
-      "Text" : "b"
-    },
-    "0x78-0x40000" : {
-      "Action" : 10,
-      "Text" : "f"
-    },
-    "0x62-0x40000" : {
-      "Action" : 12,
-      "Text" : ""
-    },
-    "0xf729-0x0" : {
-      "Action" : 5,
       "Text" : ""
     },
     "0x66-0x40000" : {
       "Action" : 25,
       "Text" : "Find...\nFind.Find..."
     },
+    "0xf729-0x0" : {
+      "Action" : 5,
+      "Text" : ""
+    },
     "0xf702-0x220000" : {
       "Action" : 11,
       "Text" : "0x15"
+    },
+    "0x7a-0x40000" : {
+      "Action" : 44,
+      "Text" : ""
+    },
+    "0x77-0x40000" : {
+      "Action" : 10,
+      "Text" : "b"
+    },
+    "0xf728-0x40000" : {
+      "Action" : 25,
+      "Text" : "Clear Buffer\nClear Buffer"
+    },
+    "0xf703-0x220000" : {
+      "Action" : 11,
+      "Text" : "0x0b"
+    },
+    "0x62-0x40000" : {
+      "Action" : 12,
+      "Text" : ""
+    },
+    "0x78-0x40000" : {
+      "Action" : 10,
+      "Text" : "f"
+    },
+    "0xf704-0x0-0x7a" : {
+      "Label" : "",
+      "Action" : 25,
+      "Text" : "Maximize Active Pane\nMaximize Active Pane"
     },
     "0xf70f-0x0" : {
       "Action" : 23,
@@ -300,8 +305,8 @@
     "Alpha Component" : 1,
     "Green Component" : 0.72916091876663813
   },
-  "Use Tab Color" : true,
   "Columns" : 100,
+  "Use Tab Color" : true,
   "Visual Bell" : false,
   "Custom Directory" : "No",
   "Ansi 5 Color" : {
