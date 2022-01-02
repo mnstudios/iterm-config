@@ -72,11 +72,11 @@
   },
   "BM Growl" : false,
   "Ansi 3 Color" : {
-    "Red Component" : 0.61399346590042114,
+    "Red Component" : 0.79676349304550176,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.0188751220703125,
+    "Blue Component" : 0.067194277420639992,
     "Alpha Component" : 1,
-    "Green Component" : 1
+    "Green Component" : 0.82806396484375
   },
   "Icon" : 0,
   "Use Non-ASCII Font" : true,
@@ -102,53 +102,53 @@
   "Custom Command" : "No",
   "Keyboard Map" : {
     "0x9-0x40000" : {
-      "Action" : 0,
-      "Text" : ""
+      "Text" : "",
+      "Action" : 0
     },
     "0x66-0x40000" : {
-      "Action" : 25,
-      "Text" : "Find...\nFind.Find..."
+      "Text" : "Find...\nFind.Find...",
+      "Action" : 25
     },
     "0xf729-0x0" : {
-      "Action" : 5,
-      "Text" : ""
+      "Text" : "",
+      "Action" : 5
     },
     "0xf702-0x220000" : {
-      "Action" : 11,
-      "Text" : "0x15"
+      "Text" : "0x15",
+      "Action" : 11
     },
     "0x7a-0x40000" : {
-      "Action" : 44,
-      "Text" : ""
+      "Text" : "",
+      "Action" : 44
     },
     "0x77-0x40000" : {
-      "Action" : 10,
-      "Text" : "b"
+      "Text" : "b",
+      "Action" : 10
     },
     "0xf728-0x40000" : {
-      "Action" : 25,
-      "Text" : "Clear Buffer\nClear Buffer"
+      "Text" : "Clear Buffer\nClear Buffer",
+      "Action" : 25
     },
     "0xf703-0x220000" : {
-      "Action" : 11,
-      "Text" : "0x0b"
+      "Text" : "0x0b",
+      "Action" : 11
     },
     "0x62-0x40000" : {
-      "Action" : 12,
-      "Text" : ""
+      "Text" : "",
+      "Action" : 12
     },
     "0x78-0x40000" : {
-      "Action" : 10,
-      "Text" : "f"
+      "Text" : "f",
+      "Action" : 10
     },
     "0xf704-0x0-0x7a" : {
       "Label" : "",
-      "Action" : 25,
-      "Text" : "Maximize Active Pane\nMaximize Active Pane"
+      "Text" : "Maximize Active Pane\nMaximize Active Pane",
+      "Action" : 25
     },
     "0xf70f-0x0" : {
-      "Action" : 23,
-      "Text" : ""
+      "Text" : "",
+      "Action" : 23
     }
   },
   "Ansi 14 Color" : {
@@ -159,9 +159,9 @@
     "Green Component" : 0.972259521484375
   },
   "Ansi 2 Color" : {
-    "Red Component" : 0.33485546708106995,
+    "Red Component" : 0.21527097601685696,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.1523895263671875,
+    "Blue Component" : 0,
     "Alpha Component" : 1,
     "Green Component" : 1
   },
